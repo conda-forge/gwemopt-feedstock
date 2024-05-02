@@ -1,5 +1,5 @@
 {% set name = "gwemopt" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gwemopt-{{ version }}.tar.gz
-  sha256: 6a67c879d0a5673277dc39eb88d7c70d410152d865c544413594a0e351ec5716
+  sha256: 61c8c6e1460a22178abd475717aa8f6422a755326b98fc7607d7360e99864451
 
 build:
   entry_points:
@@ -42,7 +42,7 @@ requirements:
     - lxml
     - h5py
     - healpy
-    - munkres
+    - ortools-python
     - pandas
     - shapely
     - pytables
