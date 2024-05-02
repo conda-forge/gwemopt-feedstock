@@ -42,7 +42,7 @@ requirements:
     - lxml
     - h5py
     - healpy
-    - munkres
+    - ortools-python
     - pandas
     - shapely
     - pytables
