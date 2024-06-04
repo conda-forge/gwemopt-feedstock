@@ -35,6 +35,7 @@ requirements:
     - astroplan
     - ephem
     - pyyaml
+    - pulp
     - voeventlib
     - joblib
     - ligo-segments
