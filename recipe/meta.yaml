@@ -1,5 +1,5 @@
 {% set name = "gwemopt" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gwemopt-{{ version }}.tar.gz
-  sha256: 61c8c6e1460a22178abd475717aa8f6422a755326b98fc7607d7360e99864451
+  sha256: 78acb1d86ba88688f1f85675f9538bbcea11f5bbb8b61d29c790dbb1688dc29c
 
 build:
   entry_points:
@@ -35,6 +35,7 @@ requirements:
     - astroplan
     - ephem
     - pyyaml
+    - pulp
     - voeventlib
     - joblib
     - ligo-segments
@@ -47,6 +48,7 @@ requirements:
     - shapely
     - pytables
     - regions
+    - tqdm
 
 test:
   imports:
