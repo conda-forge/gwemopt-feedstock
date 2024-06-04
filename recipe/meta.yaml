@@ -48,6 +48,7 @@ requirements:
     - shapely
     - pytables
     - regions
+    - tqdm
 
 test:
   imports:
