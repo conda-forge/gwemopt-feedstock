@@ -30,13 +30,12 @@ requirements:
     - astropy >=1.1.1
     - astropy-healpix
     - python-dateutil
-    - mocpy >=0.12.2
+    - mocpy >=0.16.0
     - astroquery
     - astroplan
     - ephem
     - pyyaml
     - pulp
-    - voeventlib
     - joblib
     - ligo-segments
     - ligo.skymap
@@ -44,6 +43,7 @@ requirements:
     - h5py
     - healpy
     - ortools-python
+    - numba
     - pandas
     - shapely
     - pytables
