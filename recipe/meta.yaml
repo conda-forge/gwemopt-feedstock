@@ -1,5 +1,5 @@
 {% set name = "gwemopt" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gwemopt-{{ version }}.tar.gz
-  sha256: 78acb1d86ba88688f1f85675f9538bbcea11f5bbb8b61d29c790dbb1688dc29c
+  sha256: 42cc3a3842daf218811a1c13fd98ab01dc4a2ae5a494ec05c943f7cb1036b5ab
 
 build:
   entry_points:
