@@ -1,5 +1,5 @@
 {% set name = "gwemopt" %}
-{% set version = "0.3.6" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,14 +8,14 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gwemopt-{{ version }}.tar.gz
-  sha256: 42cc3a3842daf218811a1c13fd98ab01dc4a2ae5a494ec05c943f7cb1036b5ab
+  sha256: 2979215d0307bfc51c950128d15abfce0a8983c1a2af0adb219f43452059fde6
 
 build:
   entry_points:
     - gwemopt-run=gwemopt.run:run
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
