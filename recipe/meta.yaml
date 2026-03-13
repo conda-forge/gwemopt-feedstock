@@ -24,32 +24,29 @@ requirements:
     - setuptools-scm
     - pip
   run:
-    - python >={{ python_min }}
-    - numpy >=1.7.1
-    - scipy >=1.2.1
-    - matplotlib-base >=1.2.0
-    - astropy-base >=1.1.1
+    - python >={{ python_min }},<3.14
+    - numba
+    - numpy >=2.0
+    - scipy >=1.14
+    - matplotlib-base >=3.5
+    - astropy-base >=6.0
     - astropy-healpix
-    - python-dateutil
     - mocpy >=0.16.0
     - astroquery
     - astroplan
     - ephem
-    - pyyaml
-    - pulp
     - joblib
-    - ligo-segments
+    - igwn-segments
     - ligo.skymap
     - lxml
     - h5py
     - healpy
-    - ortools-python
-    - numba
     - pandas
     - shapely
     - pytables
-    - regions
+    - requests
     - tqdm
+    - regions
 
 test:
   imports:
